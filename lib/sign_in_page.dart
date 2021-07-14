@@ -14,10 +14,6 @@ class SignInPage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Container(
-            height: 50,
-            child: Text("ABC"),
-          ),
           TextField(
             controller: emailController,
             decoration: InputDecoration(
